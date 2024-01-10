@@ -1,0 +1,144 @@
+.container {
+  background-color: #010536; 
+  width:100%;
+  height:90px;
+  margin-top:-8px;
+}
+
+.home{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.charlength label{
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.charlength input{
+  width:70px;
+  height:20px;
+  border:1px solid #010536;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* margin-left: 5px;
+  margin-top: -6px; */
+}
+
+.checkboxes{
+  width:640px;  
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+  height:40px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+
+}
+.generateBtn{
+  background-color: tomato;
+  width:150px;
+  height:35px;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 15;
+  font-weight: bold;
+}
+
+.errorMessage{
+  color:red;
+  font-size: 16px;
+}
+
+.header{
+  width:500px;
+  margin: 10px auto;
+  height:30px;
+  background-color:rgb(246, 243, 243);
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  border-radius: 5px;
+}
+
+
+.copyBtn{
+  width:80px;
+  height:30px;
+  background-color:green;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+
+@media (max-width:786px){
+ body{
+  background-image: none;
+ }
+ .nav{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+ .checkboxes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:260px;
+  height:80px;
+ }
+ h1{
+  font-size: 17px;
+  margin-left: -240px;
+ }
+ p{
+  display: none;
+ }
+ .charlength label{
+  font-size: 13px !important;
+ }
+
+ .charlength input{
+   width:30px !important;
+   border-radius: 5px;
+ }
+
+ .header{
+  width:180px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+ }
+ .copyBtn{
+  margin-top:10px;
+ }
+}
